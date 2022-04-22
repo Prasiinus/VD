@@ -57,38 +57,13 @@
     font-weight: 700;
 }
 .text-formation {
+    margin-left: 5.4cm;
+    font-size: larger;
+ 
+}
+.text-experience {
     margin-left: 3cm;
-    font-size: large;
-}
-
-#d1 {
-    display: flex;
-}
-
-#d2 {
-    display: flex;
-}
-
-#d3 {
-    display: flex;
-}
-
-#d4 {
-    display: flex;
-}
-#d5 {
-    display: flex;
-}
-
-.annee {
-    font-weight: 700;
-   margin-left: 1cm;
-   color: tomato;
-  
-}
-
-#e1 {
-    display: flex;
+    font-size: larger;
 }
 
 .detail-experience {
@@ -99,6 +74,12 @@
 
 h3 > span {
     color: tomato;
-  
-    margin-left: 2em;
+   float: right;
+    margin-right: 7cm;
+   
+}
+#annee
+{
+    float: none;
+    margin-right: 1em;
 }
