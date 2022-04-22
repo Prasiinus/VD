@@ -1,0 +1,57 @@
+
+
+
+body {
+    background-color: silver;
+}
+
+#entete {background-color: yellow;}
+img {
+
+    vertical-align: bottom;
+}
+
+h1 {
+   display: inline;
+   vertical-align: bottom;
+}
+
+h2 {
+    background-color: green;
+}
+
+h3 {
+    background-color: purple;
+}
+
+table, td{
+    border: 5px solid red;
+    background-color: green;
+    
+}
+
+table {
+    width: 100%;
+}
+td {
+    color: white;
+}
+
+#lien1 {
+    color: red;
+}
+
+#lien2
+{
+    color: green;
+}
+
+
+#synopsis {
+font-size: 20px;
+text-align: center;
+}
+
+#clotaire {
+    text-align: center;
+}

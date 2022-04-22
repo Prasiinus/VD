@@ -1,0 +1,31 @@
+
+
+main {
+    display: flex;
+    
+   
+}
+fieldset {
+    background-color: rgb(252, 245, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    background-color: rgba(255, 251, 24, 0.959);
+    font-weight: bold;
+}
+#gauche {
+    padding-left: 1cm;
+    width: 30%;
+}
+#droite {
+    width: 70%;
+}
+footer {
+    margin-top: 10px;
+    margin-right: 30px;
+    float: right; 
+
+    
+
+}

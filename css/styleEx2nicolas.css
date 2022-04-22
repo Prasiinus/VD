@@ -1,0 +1,56 @@
+header {
+    border: 8px double black;
+    background-color: red;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  
+}
+
+body {
+    background-color: silver;
+    margin:7px ;
+}
+
+
+main {
+    display: flex;  
+    font-family:  Arial, Helvetica, Arial, Helvetica, sans-serif ;
+    border: 1px solid black ;
+    margin-top: 7px;
+    font-weight: bold;
+    
+    
+}
+
+
+#description {
+    border-right: 1px solid black;
+    width: 20%;
+    padding: 7px;
+    
+
+}
+
+h3 {
+    background-color: red;
+}
+
+h2 {
+    
+    text-decoration: underline;
+  
+}
+
+div {
+    padding: 7px;
+    padding-right: 20px;
+    width: 80%;
+}
+
+table {
+width: 100%;
+}
+
+footer {
+    margin-top: 15px;
+}
