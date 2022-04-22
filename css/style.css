@@ -1,0 +1,67 @@
+/*
+nomBalise (
+    propriétés: valeur;
+    propriété2: valeur;
+)
+*/
+
+h1, h3, h6, #texte {
+
+    color: red;
+}
+
+
+div {
+
+    background-color: silver;
+}
+
+#header {
+    font-size: 50px;
+}
+
+.similaire{
+    font-weight: bold;
+}
+
+section > article {
+    text-decoration: underline;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    border: 1px dotted blue;
+    padding-left: 10px; /* marge à l'interieur ds block */
+    padding-right: 10px;
+    margin: 20px; /* marge à entre les block */
+}
+
+ul > li{
+    background-color: rgb(30,120,136);
+}
+
+body > p {
+    border: 1px solid green;
+    width: 50%;
+    height: 5%;
+}
+
+section {
+    display: flex; /* flex permet de mettre en ligne par defaux mais on peut modifier le flex avec bcp de propriete */
+    flex-direction: row-reverse;
+}
+
+#exampleInputEmail1
+{
+    color: red;
+}
+
+.personnel {
+    background-color: yellow;
+}
+
+.progress-bar {
+    
+}
