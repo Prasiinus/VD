@@ -1,0 +1,28 @@
+.btn
+{
+    text-decoration: bolder;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: gray;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: rgb(170, 170, 170);
+    border: none;
+    color: rgb(39, 39, 39);
+    padding:  30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+

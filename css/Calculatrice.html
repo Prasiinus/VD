@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Calculatrice </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="calculatrice.css" />
+    <script src="Calculatrice.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <table class = "keyboard">
+        <tr>
+            <td colspan="5" class="output"><input type="text" class= "output" id="output" name="output" disabled></td>
+        </tr>
+        <tr>
+            <td colspan="5" class ="input"><input type="text" class="input" id="input" name="input" placeholder="Zone de saisie :"></td>
+        </tr>
+        <tr>
+            <td><button class = "btn" id= "btn1" onclick="btnChiffre(1)">1</button></td>
+            <td><button class = "btn" id= "btn2" onclick="btnChiffre(2)">2</button></td>
+            <td><button class = "btn" id= "btn3" onclick="btnChiffre(3)">3</button></td>
+            <td><button class = "btn" id= "btnPlus" onclick="btnPlus()">+</button></td>
+            <td rowspan="4"><button button class = "btn" id= "btnValider" onclick="btnEgal()">ENTREE</button></td>
+        </tr>
+        <tr>
+            <td><button class = "btn" id= "btn4" onclick="btnChiffre(4)">4</button></td>
+            <td><button class = "btn" id= "btn5" onclick="btnChiffre(5)">5</button></td>
+            <td><button class = "btn" id= "btn6" onclick="btnChiffre(6)">6</button></td>
+            <td><button class = "btn" id= "btnMinus" onclick="btnMinus()">-</button></td>
+        </tr>
+        <tr>
+            <td><button class = "btn" id= "btn7" onclick="btnChiffre(7)">7</button></td>
+            <td><button class = "btn" id= "btn8" onclick="btnChiffre(8)">8</button></td>
+            <td><button class = "btn" id= "btn9" onclick="btnChiffre(9)">9</button></td>
+            <td><button class = "btn" id= "btnX" onclick="btnMulti()">*</button></td>
+        </tr>
+        <tr>
+            <td><button class = "btn" id= "btnComma" onclick="btnComma()">,</button></td>
+            <td><button class = "btn" id= "btn0" onclick="btnChiffre(0)">0</button></td>
+            <td><button class = "btn" id= "btnBack" onclick="btnReset()">BACK</button></td>
+            <td><button class = "btn" id= "btnDiv" onclick="btnDivi()">/</button><td>
+        </tr>
+        <tr>
+            <td colspan="5" class="historic"><input type="text" class="historic" id="historic" name="historic" placeholder="Historique :"></td>
+        </tr>
+
+    </table>
+
+
+    
+
+
+</body>
+
+</html>
